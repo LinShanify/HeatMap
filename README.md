@@ -1,5 +1,4 @@
 # A Simple Tool for Ploting the Heatmap Overlay Image
-### If we have a [demo_image](demo_image.jpg) and its heapmap values (*can be any shape*)
 
 ### **HeatMap Class**: 3 inputs:
 1. **image:** image path *(string)* or image value *(numpy array)*
