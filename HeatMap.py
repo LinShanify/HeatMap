@@ -31,8 +31,8 @@ class HeatMap:
         self.heat_map = heatmap_image_resized
     
     #Plot the figure
-    def plot(self,transparency=0.7,color_map='bwr',width_pad=-10,
-             show_axis=False, show_original=False, show_colorbar=False):
+    def plot(self,transparency=0.7,color_map='bwr',
+             show_axis=False, show_original=False, show_colorbar=False,width_pad=0):
             
         #If show_original is True, then subplot first figure as orginal image
         #Set x,y to let the heatmap plot in the second subfigure, 
@@ -58,9 +58,9 @@ class HeatMap:
         plt.show()
     
     ###Save the figure
-    def save(self,filename,format='eps',save_path=os.getcwd(),
+    def save(self,filename,format,save_path=os.getcwd(),
              transparency=0.7,color_map='bwr',width_pad = -10,
-             show_axis=False, show_original=True, show_colorbar=False):
+             show_axis=False, show_original=False, show_colorbar=False):
         if show_original:
             plt.subplot(1, 2, 1)
             if not show_axis:
