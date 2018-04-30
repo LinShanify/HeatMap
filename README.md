@@ -24,6 +24,11 @@ hm = HeatMap(image,heat_map,gaussian_std=0)
 ```python
 #simple default plot
 hm.plot()
+```
+![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_1.png?raw=true)
+
+
+```python
 #customised plot
 hm.plot(transparency=0.6,
         color_map='seismic',
@@ -32,6 +37,7 @@ hm.plot(transparency=0.6,
         show_colorbar=True,
         width_pad=-10)
 ```
+![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
 ### **Method 2 `save`:** 9 parameters *(2 required, 7 optional)*
 ### **required**
@@ -51,7 +57,6 @@ hm.plot(transparency=0.6,
 # simple save
 hm.save('heatmap_result_1','png')
 ```  
-![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_1.png?raw=true)
 
 ```python
 # customised save
@@ -63,5 +68,4 @@ hm.save('heatmap_result_2','png',
         show_colorbar=True,
         width_pad=-10)
 ```
-![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
