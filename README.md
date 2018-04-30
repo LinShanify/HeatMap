@@ -63,5 +63,5 @@ hm.save('heatmap_result_2','png',
         show_colorbar=True,
         width_pad=-10)
 ```
-![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_1.png?raw=true)
+![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
