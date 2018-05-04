@@ -62,7 +62,7 @@ hm.save('heatmap_result_1','png')
 hm.save('heatmap_result_2','png',
         transparency=0.6,
         color_map='seismic',
-        show_axis=False,
+        show_axis=True,
         show_original=True,
         show_colorbar=True,
         width_pad=-10)
