@@ -38,7 +38,7 @@ hm.plot(transparency=0.6,
 ```
 ![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
-### **Method 2 `save`:** 9 parameters *(2 required, 7+ optional)*
+### **Method 2 `save`: **2 required, 7+ optional*
 ### **required**
 1. **filename:** filename for saved figure *(string)*
 2. **formate:** figure saving fomate (**jpg, jpeg, png, pdf, ps, eps** and **svg**)
