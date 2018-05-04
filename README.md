@@ -38,13 +38,13 @@ hm.plot(transparency=0.6,
 ```
 ![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
-### **Method 2 `save`: **2 required, 7+ optional*
+### **Method 2 `save`:** 1 required, 8+ optional*
 ### **required**
 1. **filename:** filename for saved figure *(string)*
-2. **formate:** figure saving fomate (**jpg, jpeg, png, pdf, ps, eps** and **svg**)
 
 ### **optinal:**
-1. **save_path:** firgure saving directory (default is the current working directory)
+1. **save_path:** figure saving directory (default is the current working directory)
+2. **formate:** figure saving fomate (**jpg, jpeg, png, pdf, ps, eps** and **svg**), default is 'png'
 2. **transparency:** define the transparency of heamap overlay (lower -> more transparent, default is 0.7)
 3. **color_map:** [color map](https://matplotlib.org/examples/color/colormaps_reference.html) style (default is *bwr*)
 4. **show_axis:** show axis or not (boolean `True/False`, default is `False`)
@@ -55,7 +55,7 @@ hm.plot(transparency=0.6,
 
 ```python
 # simple save
-hm.save('heatmap_result_1','png')
+hm.save('heatmap_result_1')
 ```  
 
 ```python

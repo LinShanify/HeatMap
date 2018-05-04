@@ -58,7 +58,7 @@ class HeatMap:
         plt.show()
     
     ###Save the figure
-    def save(self,filename,format,save_path=os.getcwd(),
+    def save(self,filename,format='png',save_path=os.getcwd(),
              transparency=0.7,color_map='bwr',width_pad = -10,
              show_axis=False, show_original=False, show_colorbar=False, **kwargs):
         if show_original:
