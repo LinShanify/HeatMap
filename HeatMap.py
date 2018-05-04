@@ -60,7 +60,7 @@ class HeatMap:
     ###Save the figure
     def save(self,filename,format,save_path=os.getcwd(),
              transparency=0.7,color_map='bwr',width_pad = -10,
-             show_axis=False, show_original=False, show_colorbar=False):
+             show_axis=False, show_original=False, show_colorbar=False, **kwargs):
         if show_original:
             plt.subplot(1, 2, 1)
             if not show_axis:
@@ -82,5 +82,5 @@ class HeatMap:
         plt.savefig(os.path.join(save_path,filename+'.'+format), 
                     format=format, 
                     bbox_inches='tight',
-                    pad_inches = 0)
+                    pad_inches = 0, **kwargs)
         print('{}.{} has been successfully saved to {}'.format(filename,format,save_path))

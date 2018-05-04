@@ -38,19 +38,20 @@ hm.plot(transparency=0.6,
 ```
 ![](https://github.com/LinShanify/HeatMap/blob/master/heatmap_result_2.png?raw=true)
 
-### **Method 2 `save`:** 9 parameters *(2 required, 7 optional)*
+### **Method 2 `save`:** 9 parameters *(2 required, 7+ optional)*
 ### **required**
 1. **filename:** filename for saved figure *(string)*
 2. **formate:** figure saving fomate (**jpg, jpeg, png, pdf, ps, eps** and **svg**)
 
 ### **optinal:**
 1. **save_path:** firgure saving directory (default is the current working directory)
-1. **transparency:** define the transparency of heamap overlay (lower -> more transparent, default is 0.7)
-2. **color_map:** [color map](https://matplotlib.org/examples/color/colormaps_reference.html) style (default is *bwr*)
-3. **show_axis:** show axis or not (boolean `True/False`, default is `False`)
-4. **show_original:** show original image (boolean `True/False`, default is `False`)
-5. **show_colorbar:** show color bar (boolean `True/False`, default is `False`)
-6. **width_pad:** the width padding (default is 0, set to negative value for reducing the space between figures)
+2. **transparency:** define the transparency of heamap overlay (lower -> more transparent, default is 0.7)
+3. **color_map:** [color map](https://matplotlib.org/examples/color/colormaps_reference.html) style (default is *bwr*)
+4. **show_axis:** show axis or not (boolean `True/False`, default is `False`)
+5. **show_original:** show original image (boolean `True/False`, default is `False`)
+6. **show_colorbar:** show color bar (boolean `True/False`, default is `False`)
+7. **width_pad:** the width padding (default is 0, set to negative value for reducing the space between figures)
+8. other parameters from [pyplot.savefig](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html) can be used here
 
 ```python
 # simple save
