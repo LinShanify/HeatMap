@@ -1,5 +1,5 @@
 # A Simple Tool for Ploting the Heatmap Overlay Image
-## [Demo](https://github.com/LinShanify/HeatMap/blob/master/demo.ipynb)
+## [Jupyter Notebook Demo](https://github.com/LinShanify/HeatMap/blob/master/demo.ipynb)
 ### **HeatMap Class**: 3 inputs:
 1. **image:** image path *(string)* or image value *(numpy array)*
 2. **heatmap:** 2-D numpy value *(no shape restriction)*
